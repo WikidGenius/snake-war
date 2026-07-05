@@ -10,6 +10,10 @@ https://WikidGenius.github.io/snake-war/
 
 You are a neon-green baby snake in a stylized suburban backyard. Eat **5 mice with glowing pink noses**, avoid Bluey, gardeners, and the lawnmower, then trigger the first evolution placeholder.
 
+## Health rule
+
+Eating a mouse heals 1 health if you are damaged. If you eat a mouse while already full at 3/3, your max health upgrades to 4/4. That 4-health upgrade remains through the Stage 2 evolution state.
+
 ## Controls
 
 | Input | Action |
