@@ -1,14 +1,10 @@
 # Serpent's Ascent — Stage 1
 
-Playable browser prototype for **Serpent's Ascent**, published from `snake-war` to GitHub Pages.
+Playable browser prototype for **Serpent's Ascent**.
 
 ## Play URL
 
-After GitHub Pages is enabled for GitHub Actions and the deploy workflow succeeds:
-
-```text
 https://WikidGenius.github.io/snake-war/
-```
 
 ## Current vertical slice
 
@@ -18,15 +14,15 @@ You are a neon-green baby snake in a stylized suburban backyard. Eat **10 mice w
 
 | Input | Action |
 |---|---|
-| Left stick / WASD | Move |
-| Right stick / arrows / touch drag | Camera |
-| RT / Shift | Dash |
-| LT / Alt | Stalk |
-| X / Space | Bite nearby mouse |
-| Y / E | Dramatic Flop |
-| D-pad Up / P | Predator Vision scent trails |
+| WASD / left stick / touch stick | Move |
+| Q/E, arrow keys, right stick, or screen drag | Camera turn |
+| H / LT / Stalk button | Stalk silently while held |
+| J / X / Space / Bite button | Bite nearby mouse |
+| K / RT / Shift / Dash button | Dash while stamina lasts |
+| L / Y / Flop button | Dramatic Flop |
+| I / D-pad Up / P / Vision button | Predator Vision scent trails |
 
-For iPad testing, pair the controller first, open the Pages URL in Safari, press any controller button once, then start the game.
+For iPad keyboard testing, use WASD for movement, Q/E for camera, and H/I/J/K/L for abilities.
 
 ## Development
 
@@ -36,9 +32,3 @@ npm run dev
 npm run build
 npm run preview
 ```
-
-The Vite base path is `/snake-war/` so built assets resolve from the GitHub Pages project URL.
-
-## Deployment
-
-The repository includes `.github/workflows/pages.yml`. In GitHub, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Pushes to `main` will build and publish `dist/`.
