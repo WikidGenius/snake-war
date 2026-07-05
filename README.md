@@ -8,7 +8,7 @@ https://WikidGenius.github.io/snake-war/
 
 ## Current vertical slice
 
-You are a neon-green baby snake in a stylized suburban backyard. Eat **10 mice with glowing pink noses**, avoid Bluey, gardeners, and the lawnmower, then trigger the first evolution placeholder.
+You are a neon-green baby snake in a stylized suburban backyard. Eat **5 mice with glowing pink noses**, avoid Bluey, gardeners, and the lawnmower, then trigger the first evolution placeholder.
 
 ## Controls
 
