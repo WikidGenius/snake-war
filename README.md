@@ -14,15 +14,17 @@ You are a neon-green baby snake in a stylized suburban backyard. Eat **10 mice w
 
 | Input | Action |
 |---|---|
-| WASD / left stick / touch stick | Move |
-| Q/E, arrow keys, right stick, or screen drag | Camera turn |
+| W / left stick up / touch stick up | Move forward away from the rear camera |
+| S / left stick down / touch stick down | Reverse slowly |
+| A/D / left stick sideways | Turn left/right |
+| Camera | Fixed third-person behind the snake |
 | H / LT / Stalk button | Stalk silently while held |
 | J / X / Space / Bite button | Bite nearby mouse |
 | K / RT / Shift / Dash button | Dash while stamina lasts |
 | L / Y / Flop button | Dramatic Flop |
 | I / D-pad Up / P / Vision button | Predator Vision scent trails |
 
-For iPad keyboard testing, use WASD for movement, Q/E for camera, and H/I/J/K/L for abilities.
+For iPad keyboard testing, use W/S for forward/reverse, A/D for turning, and H/I/J/K/L for abilities.
 
 ## Development
 
